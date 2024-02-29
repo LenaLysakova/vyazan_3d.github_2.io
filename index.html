@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+ 
+<head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вязань</title> 
+
+    <style>
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+}
+
+
+header {
+    background-color: white;
+    padding: 0 57px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 99px; 
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.image-container {
+    margin: 10px 57px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.row {
+        /*row — флекс-контейнер, этаж*/
+      display: flex;
+      margin-bottom: 20px;
+      margin-top: 10;
+      padding: 20px 57px;
+     
+      
+     }
+     .nav {
+      display: flex;
+    justify-content: space-between;
+    
+      }
+
+.spacer {
+  
+      max-width: 212px;
+      margin-right: 20px
+      }
+
+footer {
+    background-color: white;
+    padding: 20px 57px;
+}
+
+.footer-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column .left-column,
+.footer-column .right-column {
+  font-family: 'Montserrat';
+}
+
+.footer-column .first-line {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.footer-column .left-column .second-line {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer-column .right-column .second-line {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(182, 87, 103)
+}
+    </style>
+</head>
+
+
+  
+<body>
+    <header>
+        <div class="logo">Вязань</div>
+        <nav>
+            <ul>
+                <li><a href="#">Товары</a></li>
+              <li><a href="#">О нас</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+  
+  
+      </header>
+   <div class="image-container">
+        <img src="images/Slice 6.png" alt="Фотография">
+    </div>
+
+
+    <!-- Ряд карточек -->
+      <nav>
+        <div class="row">
+        <div class="spacer">
+               <img src="images/Slice 3.png" alt="Photo:Свитера" class="card-photo">
+       </div>
+       <div class="spacer">
+           <img src="images/Slice 4.png" alt="Photo:Платья" class="card-photo">
+       </div>
+       <div class="spacer">
+           <img src="images/Slice 5.png" alt="Photo:Аксессуары" class="card-photo2">
+       </div>
+      </div>
+    </nav>
+
+  
+    
+  <footer>
+        <div class="footer-column">
+            <div class="left-column">
+                <div class="first-line">Вязань</div>
+                <div class="second-line">+7 491 232-22-22</div>
+            </div>
+            <div class="right-column">
+                <div class="first-line">Рязань, Вязальная улица, 13/2</div>
+                <div class="second-line">info@vyazan.ru</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
